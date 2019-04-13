@@ -1,6 +1,8 @@
 
 def levitation_quiz
-	#your code here
+counter = 0 
+  until answer == "Wingardium Leviosa"
+    puts ""
 end
 
 
