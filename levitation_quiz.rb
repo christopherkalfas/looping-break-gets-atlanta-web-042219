@@ -1,8 +1,11 @@
 
 def levitation_quiz
-counter = 0 
-  until answer == "Wingardium Leviosa"
-    puts ""
+  loop do
+    puts "What is the spell that enacts levitation?"
+    answer = gets.chomp
+    break if  answer == "Wingardium Leviosa"
+  end 
+  puts 
 end
 
 
